@@ -63,7 +63,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
   /**
    * Set [View.OnClickListener] on all the views
-   */ private fun registerButtonClick() {
+   */
+  private fun registerButtonClick() {
     (layoutButtonHolder as ViewGroup).children.forEach {
       it.setOnClickListener(this)
     }
